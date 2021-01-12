@@ -1,9 +1,3 @@
-noremap <script> <buffer> <silent> [[ <nop>
-noremap <script> <buffer> <silent> ]] <nop>
-
-noremap <script> <buffer> <silent> [] <nop>
-noremap <script> <buffer> <silent> ][ <nop>
-
 function! s:NextSection(type, backwards)
     if a:type == 1
     let pattern = '\v(\n\n^\S|%^)'
